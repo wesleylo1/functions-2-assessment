@@ -22,7 +22,7 @@
 */
 
 //CODE HERE
-
+let greetUser = username => `Welcome back, ${username}`
 
 
 
