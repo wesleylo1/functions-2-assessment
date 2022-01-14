@@ -31,7 +31,14 @@
 */
 
 //CODE HERE
-
+let pizza = {
+    name: 'the works',
+    price: 12,
+    category: 'entree',
+    popularity: 10,
+    rating: 5,
+    tags: ['pizza','good','full','best','family']
+}
 
 
 //////////////////PROBLEM 2////////////////////
