@@ -118,6 +118,7 @@ const deals = [
 
 //CODE HERE
 
+array[0].title.replace(15,10)
 
 
 /*
@@ -134,3 +135,4 @@ const deals = [
 */
 
 //CODE HERE
+array[1].desc.replace('March','April')trim.()
