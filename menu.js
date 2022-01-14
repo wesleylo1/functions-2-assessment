@@ -99,7 +99,49 @@ console.log(category)
 */
 
 //CODE HERE
-
+let foodArr = [
+    {
+        name: 'vegetarian',
+        price: 8,
+        category: 'appetizer',
+        popularity: 22,
+        rating: 7,
+        tags: ['pizza','full','vegetarian']
+    },
+    {
+        name: 'the works',
+        price: 12,
+        category: 'entree',
+        popularity: 10,
+        rating: 5,
+        tags: ['pizza','good','full','best','family']
+    },
+    {
+        name: 'meatlover',
+        price: 13,
+        category: 'entree',
+        popularity: 11,
+        rating: 6,
+        tags: ['pizza','great','full','meat','family']
+    },
+    {
+        name: 'sausage',
+        price: 7,
+        category: 'entree',
+        popularity: 20,
+        rating: 2,
+        tags: ['pizza','good','full','best','family']
+    },
+    {
+        name: 'apple pie',
+        price: 12,
+        category: 'dessert',
+        popularity: 10,
+        rating: 89,
+        tags: ['dessert','good','lovely','pizza','family']
+    },
+    
+]
 
 
 //////////////////PROBLEM 4////////////////////
@@ -115,8 +157,23 @@ console.log(category)
 */
 
 //CODE HERE
+// function filter(array,tag,callback) {
+//     if(array.includes(tag) === true) {
+//         return callback(true)
+//     } else {
+//         return callback(false)
+//     }
+//  }
 
-// const filteredFood = foodArr.filter(/* CALLBACK HERE */)
+
+// const filteredFood = foodArr.filter(foodArr,'good',callback) {
+//     if(array.includes(tag) === true) {
+//         return callback(true)
+//     } else {
+//         return callback(false)
+//     }
+//  }
+// }
 
 
 
@@ -160,7 +217,13 @@ console.log(category)
 */
 
 //CODE HERE
+function filterByProperty(property,number,type) {
+    let filteredArr = []
 
+    foodArr.filter(function(element){
+        if (type )
+    })
+}
 
 /*
     Invoke the `filterByProperty` function passing
