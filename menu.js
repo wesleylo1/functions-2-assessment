@@ -50,6 +50,7 @@ let pizza = {
 */
 
 //CODE HERE
+console.log(pizza.popularity)
 
 
 /*
