@@ -86,7 +86,11 @@ function calcFinalPrice(carTotal,couponValue,tax) {
 */
 
 /*
-    TEXT ANSWER HERE
+    The properties in the cart object would be:
+    name: string, need to know who's picking up or delivering to
+    address: string, need to know where delivering to
+    phone: number, if needing to contact customer
+    restrictions: string, so restaurant knows what not to put in the food.
 
 */
 
@@ -96,3 +100,9 @@ function calcFinalPrice(carTotal,couponValue,tax) {
 */
 
 //CODE HERE
+let customerCart = {
+    name: 'Jack',
+    address: '123 Main St.',
+    phone: 9723339504,
+    restrictions: 'none'
+}
