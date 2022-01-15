@@ -50,9 +50,15 @@ let greetUser = username => `Welcome back, ${username}`
 const deliveryAreaZipCodes = [85205, 85204, 85203, 85213, 85206]
 
 //CODE HERE
-
-
-
+function canWeDeliver(zipCode) {
+    for (let i = 0; i < deliveryAreaZipCodes.length; i++) {
+        if (deliveryAreaZipCodes[i] === zipCode) {
+            return 'we can deliver'
+        } else {
+            return 'we cannot deliver'
+        }
+    }
+}
 
 /* 
     Problem 2 Continued
@@ -79,9 +85,6 @@ function canWeDeliverTwo(zipCode) {
         return 'we cannot deliver in the area'
     }
 }
-
-console.log(canWeDeliverTwo(85213))
-
 
 //////////////////PROBLEM 3////////////////////
 /* 
@@ -117,9 +120,8 @@ const deals = [
 */
 
 //CODE HERE
-
 deals[0].title = deals[0].title.replace(15,10)
-console.log(deals[0]);
+
 
 
 /*
@@ -137,5 +139,3 @@ console.log(deals[0]);
 
 //CODE HERE
 deals[1].desc = deals[1].desc.replace('March','April').trim()
-
-console.log(deals[1]);
