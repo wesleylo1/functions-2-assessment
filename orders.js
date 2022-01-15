@@ -59,8 +59,6 @@ class Ticket{
 //CODE HERE
 let firstTicket = new Ticket('pizza','7:03PM',575)
 
-
-
 /*
     Call the `updateStatus` method on
     `firstTicket` passing in the string
