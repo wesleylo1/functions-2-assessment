@@ -97,7 +97,7 @@ class Manager extends Employee {
     constructor(name,shifts,employees) {
         super(name,shifts)
 
-        this.employees = employees
+        this.employees = [employees]
     }
 
     getEmployees() {
@@ -105,7 +105,9 @@ class Manager extends Employee {
     }
 
     addEmployee(emp) {
-        return this.employees.push(emp)
+
+        
+        this.employees.push(emp)
     }
 }
 

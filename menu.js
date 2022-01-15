@@ -157,25 +157,13 @@ let foodArr = [
 */
 
 //CODE HERE
-// function filter(array,tag,callback) {
-//     if(array.includes(tag) === true) {
-//         return callback(true)
-//     } else {
-//         return callback(false)
-//     }
-//  }
+const filteredFood = foodArr.filter(foodObj => {
+    if(foodObj.tags.includes('good')) {
+        return true
+    }
+})
 
-
-// const filteredFood = foodArr.filter(foodArr,'good',callback) {
-//     if(array.includes(tag) === true) {
-//         return callback(true)
-//     } else {
-//         return callback(false)
-//     }
-//  }
-// }
-
-
+console.log(filteredFood)
 
 //////////////////PROBLEM 5////////////////////
 /* 
@@ -217,13 +205,17 @@ let foodArr = [
 */
 
 //CODE HERE
-function filterByProperty(property,number,type) {
-    let filteredArr = []
-
-    foodArr.filter(function(element){
-        if (type )
-    })
-}
+// function filterByProperty(property,number,type) {
+//     const filtered = foodArr.filter(function(foodArr) {
+//         if(type === 'above'){
+//            return foodArr[property] > number; // says property to get that property for the argument
+//         } else {
+//            return foodArr[property] < number
+//         }
+//     })
+    // console.log(filtered)
+    // return filtered;
+// }
 
 /*
     Invoke the `filterByProperty` function passing
@@ -233,3 +225,4 @@ function filterByProperty(property,number,type) {
 */
 
 //CODE HERE
+// console.log(filterByProperty('rating',2,'above'))

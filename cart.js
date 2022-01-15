@@ -64,7 +64,6 @@ function calcFinalPrice(carTotal,couponValue,tax) {
     return finalTotal
 }
 
-
 //////////////////PROBLEM 3////////////////////
 /*  
     In this problem, you'll create a model for 
